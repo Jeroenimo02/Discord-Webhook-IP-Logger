@@ -21,3 +21,5 @@ The code will automatically run when the page loads.
 # Help
 If you need help with something you can always ask it.<br>
 My Discord: Jeroenimo02#2380
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z6400RZ)

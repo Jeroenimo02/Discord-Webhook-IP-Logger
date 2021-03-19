@@ -1,5 +1,5 @@
 # Discord-Webhook-IP-Logger
-This is a PHP IP logger I made that sends the IP of the visitor to Discord as an embed.<br><br>
+This is a PHP IP logger I made that sends the IP of the visitor to Discord as an embed.<br>
 ### Preview:<br>
 ![Example picture](https://i.imgur.com/fzxgFPy.png)
 

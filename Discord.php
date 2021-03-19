@@ -1,3 +1,14 @@
+/* 
+
+Please keep this copyright statement intact
+Creator: Jeroenimo02#2380
+Publish Date: 19-03-2021
+Last Update: 19-03-2021
+APIs Provided By: geoiplookup.io and ip-api.com
+
+*/ 
+
+
 <?php
 
 //Get the visitor's IP

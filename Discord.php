@@ -1,13 +1,10 @@
 /* 
-
 Please keep this copyright statement intact
 Creator: Jeroenimo02#2380
 Publish Date: 19-03-2021
-Last Update: 29-04-2021
+Last Update: 17-05-2021
 APIs Provided By: geoiplookup.io and ip-api.com
-
 */ 
-
 
 <?php
 
@@ -114,5 +111,6 @@ class Discord
         return curl_exec($Curl);
 
     }
+}
 
 ?>

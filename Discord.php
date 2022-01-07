@@ -1,12 +1,12 @@
+<?php
+
 /* 
 Please keep this copyright statement intact
 Creator: Jeroenimo02#2380
 Publish Date: 19-03-2021
-Last Update: 17-05-2021
+Last Update: 07-01-2022
 APIs Provided By: geoiplookup.io and ip-api.com
 */ 
-
-<?php
 
 //Get the visitor's IP
 $IP = (isset($_SERVER["HTTP_CF_CONNECTING_IP"]) ? $_SERVER["HTTP_CF_CONNECTING_IP"] : $_SERVER['REMOTE_ADDR']);

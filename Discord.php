@@ -4,7 +4,7 @@
 Please keep this copyright statement intact
 Creator: Jeroenimo02#2380
 Publish Date: 19-03-2021
-Last Update: 07-01-2022
+Last Update: 18-03-2022
 APIs Provided By: geoiplookup.io and ip-api.com
 */ 
 
@@ -43,7 +43,8 @@ $WebhookName = $IP;
 //Old method of getting a flag picture
 //$Flag = "https://www.countryflags.io/{$Details->countryCode}/flat/64.png";
 $Details->countryCode = strtolower($Details->countryCode);
-$Flag = "https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/{$Details->countryCode}.png";
+$FlagOLD = "https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/{$Details->countryCode}.png";
+$Flag = "https://countryflagsapi.com/png/{$Details->countryCode}";
 
 
 class Discord

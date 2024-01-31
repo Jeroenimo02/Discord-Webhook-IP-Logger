@@ -17,6 +17,20 @@ if (preg_match('/bot|Discord|robot|curl|spider|crawler|^$/i', $Browser)) {
     exit();
 }
 
+// Cloudflare Bypass
+$IP = '';
+if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+    // Cloudflare
+    $IP = $_SERVER['HTTP_CF_CONNECTING_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    // CloudFront
+    $IP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+    // Default fallback
+    $IP = $_SERVER['REMOTE_ADDR'];
+}
+
+
 //YOU CAN SET YOUR TIMEZONE HERE!
 date_default_timezone_set("Europe/Amsterdam");
 $Date = date('d/m/Y');
